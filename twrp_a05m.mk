@@ -15,9 +15,6 @@
 # limitations under the License.
 #
 
-# Include from common dir
-include device/samsung/mt6768-common/twrp_common.mk
-
 # Inherit from a05m device
 $(call inherit-product, device/samsung/a05m/device.mk)
 

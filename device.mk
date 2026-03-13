@@ -16,5 +16,7 @@
 #
 LOCAL_PATH := device/samsung/a05m
 
+include device/samsung/mt6768-common/mt6768.mk
+
 # Copy the files
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/a05m/recovery/root,recovery/root)
