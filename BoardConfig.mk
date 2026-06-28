@@ -10,6 +10,9 @@ DEVICE_PATH := device/samsung/a05m
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
+# Bypass elf checks
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := a05m
 
