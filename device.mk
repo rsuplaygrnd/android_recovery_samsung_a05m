@@ -7,6 +7,9 @@
 
 LOCAL_PATH := device/samsung/a05m
 
+# Copy the required files
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root)
+
 # Dynamic partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
