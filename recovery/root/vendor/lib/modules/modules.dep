@@ -33,7 +33,6 @@
 /vendor/lib/modules/imgsensor_isp4_t.ko: /vendor/lib/modules/camera_eeprom_isp4_t.ko /vendor/lib/modules/flashlights-ocp8111.ko /vendor/lib/modules/mtk-pwm.ko /vendor/lib/modules/flashlight.ko
 /system/lib/modules/ftdi_sio.ko: /system/lib/modules/usbserial.ko
 /vendor/lib/modules/sensor_probe.ko: /vendor/lib/modules/situation.ko /vendor/lib/modules/step_counter.ko /vendor/lib/modules/baro_common.ko /vendor/lib/modules/alsps_common.ko /vendor/lib/modules/mag_common.ko /vendor/lib/modules/gyro_common.ko /vendor/lib/modules/accel_common.ko /vendor/lib/modules/fusion.ko /vendor/lib/modules/hwmon.ko
-/vendor/lib/modules/eas_ext.ko:
 /vendor/lib/modules/omnivision_tcm_core_module.ko: /vendor/lib/modules/sec_cmd.ko
 /vendor/lib/modules/sspm_v1.ko:
 /system/lib/modules/cdc_ncm.ko: /system/lib/modules/cdc_ether.ko /system/lib/modules/usbnet.ko /system/lib/modules/mii.ko
@@ -92,7 +91,6 @@
 /vendor/lib/modules/snd-soc-mt6660.ko: /vendor/lib/modules/mtk-sp-spk-amp.ko
 /system/lib/modules/virtio_blk.ko:
 /vendor/lib/modules/blk-sec-stats.ko: /vendor/lib/modules/blk-sec-common.ko
-/vendor/lib/modules/cpuqos_ext.ko:
 /vendor/lib/modules/mtk-mbox.ko:
 /vendor/lib/modules/mtk_pbm.ko: /vendor/lib/modules/mtk_mdpm_v1.ko /vendor/lib/modules/mtk_dynamic_loading_throttling.ko
 /vendor/lib/modules/camera_eeprom_isp4_t.ko:
@@ -221,7 +219,6 @@
 /vendor/lib/modules/main2af.ko:
 /system/lib/modules/cdc-acm.ko:
 /vendor/lib/modules/musb_boost.ko: /vendor/lib/modules/mtk-dvfsrc-helper.ko /vendor/lib/modules/sspm_v1.ko
-/vendor/lib/modules/mtk_em.ko: /vendor/lib/modules/scheduler.ko /vendor/lib/modules/powerhal_cpu_ctrl.ko /vendor/lib/modules/mtk_ioctl_powerhal.ko /vendor/lib/modules/cpufreq_sugov_ext.ko /vendor/lib/modules/Upower.ko /vendor/lib/modules/sspm_v1.ko /vendor/lib/modules/mediatek_static_power.ko
 /vendor/lib/modules/met_gpu_adv_api.ko: /vendor/lib/modules/met.ko /vendor/lib/modules/mtk_gpu_hal.ko /vendor/lib/modules/sspm_v1.ko
 /system/lib/modules/ax88179_178a.ko: /system/lib/modules/usbnet.ko /system/lib/modules/mii.ko
 /vendor/lib/modules/camera_mem.ko: /vendor/lib/modules/mtk_sec_heap.ko /vendor/lib/modules/trusted_mem.ko /vendor/lib/modules/iommu_gz.ko /vendor/lib/modules/gz_tz_system.ko /vendor/lib/modules/gz_ipc_mod.ko /vendor/lib/modules/gz_trusty_mod.ko

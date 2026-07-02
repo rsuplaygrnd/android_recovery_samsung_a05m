@@ -174,9 +174,6 @@ mddp.ko
 arm_dsu_pmu.ko
 cpufreq_sugov_ext.ko
 scheduler.ko
-mtk_em.ko
-cpuqos_ext.ko
-eas_ext.ko
 widevine_driver.ko
 input_booster_lkm.ko
 task_turbo.ko
