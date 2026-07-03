@@ -62,7 +62,7 @@ BOARD_KERNEL_SEPARATED_DTBO :=
 endif
 
 # Kernel - modules
-TW_LOAD_VENDOR_MODULES := $(shell echo \"$(shell ls $(DEVICE_PATH)/recovery/root/vendor/lib/modules)\")
+TW_LOAD_VENDOR_MODULES := "sec_cmd.ko chipone-tddi.ko focaltech_tp.ko gcore_tp.ko gt1151.ko nt36528_tp.ko omnivision_tcm_core_module.ko"
 TW_LOAD_VENDOR_BOOT_MODULES := true
 TW_LOAD_VENDOR_MODULES_EXCLUDE_GKI := true
 
