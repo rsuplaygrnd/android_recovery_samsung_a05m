@@ -64,6 +64,7 @@ endif
 
 # Kernel - modules
 TW_LOAD_VENDOR_MODULES := "sec_cmd.ko chipone-tddi.ko focaltech_tp.ko gcore_tp.ko gt1151.ko nt36528_tp.ko omnivision_tcm_core_module.ko"
+TW_LOAD_VENDOR_MODULES += "gzvm.ko trusted_mem.ko gz_trusty_mod.ko gz_ipc_mod.ko gz_virtio_mod.ko gz_irq_mod.ko gz_log_mod.ko gz_tz_system.ko iommu_gz.ko mtk_sec_heap.ko gz_main_mod.ko"
 TW_LOAD_VENDOR_BOOT_MODULES := true
 TW_LOAD_VENDOR_MODULES_EXCLUDE_GKI := true
 

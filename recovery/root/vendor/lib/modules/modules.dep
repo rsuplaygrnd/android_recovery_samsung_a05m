@@ -1,3 +1,13 @@
+/vendor/lib/modules/gzvm.ko:
+/vendor/lib/modules/gz_virtio_mod.ko: /vendor/lib/modules/gz_trusty_mod.ko
+/vendor/lib/modules/mtk_sec_heap.ko: /vendor/lib/modules/trusted_mem.ko /vendor/lib/modules/iommu_gz.ko /vendor/lib/modules/gz_tz_system.ko /vendor/lib/modules/gz_ipc_mod.ko /vendor/lib/modules/gz_trusty_mod.ko
+/vendor/lib/modules/gz_main_mod.ko: /vendor/lib/modules/mtk_sec_heap.ko /vendor/lib/modules/trusted_mem.ko /vendor/lib/modules/iommu_gz.ko /vendor/lib/modules/gz_tz_system.ko /vendor/lib/modules/gz_ipc_mod.ko /vendor/lib/modules/gz_trusty_mod.ko
+/vendor/lib/modules/gz_ipc_mod.ko: /vendor/lib/modules/gz_trusty_mod.ko
+/vendor/lib/modules/gz_irq_mod.ko: /vendor/lib/modules/gz_trusty_mod.ko
+/vendor/lib/modules/gz_trusty_mod.ko:
+/vendor/lib/modules/gz_tz_system.ko: /vendor/lib/modules/gz_ipc_mod.ko /vendor/lib/modules/gz_trusty_mod.ko
+/vendor/lib/modules/gz_log_mod.ko: /vendor/lib/modules/gz_trusty_mod.ko
+/vendor/lib/modules/iommu_gz.ko: /vendor/lib/modules/gz_tz_system.ko /vendor/lib/modules/gz_ipc_mod.ko /vendor/lib/modules/gz_trusty_mod.ko
 /vendor/lib/modules/focaltech_tp.ko: /vendor/lib/modules/sec_cmd.ko
 /vendor/lib/modules/omnivision_tcm_core_module.ko: /vendor/lib/modules/sec_cmd.ko
 /vendor/lib/modules/chipone-tddi.ko: /vendor/lib/modules/sec_cmd.ko

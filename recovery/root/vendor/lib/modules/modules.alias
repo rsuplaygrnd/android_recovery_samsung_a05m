@@ -4,3 +4,13 @@ alias of:N*T*Cfocaltech,ftsC* focaltech_tp
 alias spi:omnivision_tcm_spi omnivision_tcm_core_module
 alias of:N*T*Comnivision,tcm-spi omnivision_tcm_core_module
 alias of:N*T*Comnivision,tcm-spiC* omnivision_tcm_core_module
+alias of:N*T*Candroid,trusty-virtio-v1 gz_virtio_mod
+alias of:N*T*Candroid,trusty-virtio-v1C* gz_virtio_mod
+alias of:N*T*Candroid,nebula-virtio-v1 gz_virtio_mod
+alias of:N*T*Candroid,nebula-virtio-v1C* gz_virtio_mod
+alias of:N*T*Cmediatek,geniezone gzvm
+alias of:N*T*Cmediatek,geniezoneC* gzvm
+alias of:N*T*Cmediatek,trusty-mtee-v1 gz_main_mod
+alias of:N*T*Cmediatek,trusty-mtee-v1C* gz_main_mod
+alias of:N*T*Cmediatek,trusty-tz gz_tz_system
+alias of:N*T*Cmediatek,trusty-tzC* gz_tz_system
