@@ -147,3 +147,6 @@ TWRP_EVENT_LOGGING := true
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
+# Shipping API level
+PRODUCT_SHIPPING_API_LEVEL := 33
